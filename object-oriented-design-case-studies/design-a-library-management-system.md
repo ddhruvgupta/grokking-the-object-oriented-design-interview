@@ -201,6 +201,7 @@ class Account(ABC):
         self.__status = status
         self.__person = person
 
+    @abstractmethod
     def reset_password(self):
         None
 
